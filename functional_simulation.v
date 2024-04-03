@@ -24,6 +24,12 @@ module fourBitAdder(x,y,s,cout,cin);
     fulladder f3 (x[3],y[3],c[2],s[3],cout);
 endmodule
 
-module test();
-wire seanl
+module twoToOneMultiplexor();
+wire w1, w2, w3, y;
+reg i0, i1, s;
+not g1(w1, s);
+and
+    g2(w2, w1, i0);
+    g3(w3, i1, s);
+or (y, w2, w3);
 endmodule
