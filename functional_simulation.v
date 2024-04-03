@@ -24,3 +24,6 @@ module fourBitAdder(x,y,s,cout,cin);
     fulladder f3 (x[3],y[3],c[2],s[3],cout);
 endmodule
 
+module test();
+wire seanl
+endmodule
